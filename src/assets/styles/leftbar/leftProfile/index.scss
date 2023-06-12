@@ -1,0 +1,20 @@
+.item {
+    display: flex;
+    width: 161px;
+    height: 32px;
+    align-items: center;
+    padding-left: 8px;
+
+    .profile-image {
+        width: 16px;
+        height: 16px;
+    }
+
+    .item-text-profile {
+        color: #001747;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        padding-left: 8px;
+    }
+}

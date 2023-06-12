@@ -1,0 +1,41 @@
+.leftbar {
+    background-color: #FFFFFF;
+    position: relative;
+    width: 185px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+
+    .leftbar-line {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 1px;
+        width: 100%;
+        background-color: #F5F5F5;
+    }
+
+    .leftbar-content-top {
+        padding-top: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .leftbar-content-bottom {
+        display: flex;
+        flex-direction: column;
+        background-color: #FFFFFF;
+        flex: 1;
+        justify-content: end;
+        gap: 8px;
+    }
+
+    .leftbar-line-bottom {
+        height: 1px;
+        background-color: #F6F9FB;
+        // margin-top: 16px;
+        // margin-bottom: 20px;
+    }
+}

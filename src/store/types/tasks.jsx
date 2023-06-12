@@ -1,0 +1,3 @@
+export const TASKS_ACTIONS = {
+  SET_TASKS_ACTIONS: "SET_TASKS_ACTIONS",
+};

@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from "react-router-dom";
+import "./assets/styles/task/content.scss";
+import UpBar from "./pages/UpBar";
+import LeftBar from "./pages/LeftBar";
+import Task from "./pages/homepage/Task";
+import Nopage from "./pages/homepage/Nopage";
+import AddNewTask from "./pages/homepage/AddNewTask";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="global-container">
+        <UpBar />
+        <div className="content-container">
+          <LeftBar />
+          <Routes>
+            <Route path="/" element={<Task />} />
+            <Route path="/add-new-task" element={<AddNewTask />} />
+            <Route path="*" element={<Nopage />} />
+          </Routes>
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,17 @@
+.task-card-subtotal{
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 23, 71, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .task-card-subtotal-text{
+        margin: 0;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 16px;
+        color: #001747;
+    }
+    
+}

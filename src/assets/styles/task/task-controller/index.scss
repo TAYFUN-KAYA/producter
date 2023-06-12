@@ -1,0 +1,112 @@
+.task-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #F5F5F5;
+    overflow-y: hidden;
+    
+    .task-controller {
+        display: flex;
+        padding-top: 20px;
+        padding-left: 24px;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+
+    .back-icon {
+        width: 40px;
+        height: 24px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sprint,
+    .team {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+
+        .sprint-content,
+        .team-content {
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .sprint-text,
+            .team-text {
+                font-weight: 300;
+                font-size: 13px;
+                line-height: 24px;
+                color: #405175;
+
+            }
+
+        }
+
+        .time-icon,
+        .team-icon {
+            padding-left: 8px;
+            padding-right: 4px;
+        }
+
+        .vertical-line {
+            width: 1px;
+            height: 24px;
+            margin-left: 8px;
+            background-color: rgba(0, 23, 71, 0.07);
+        }
+    }
+
+    .new-sprint-name {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 16px;
+        color: #001747;
+        padding-left: 8px;
+    }
+
+    .calendar-icon,
+    .people-icon {
+        padding-left: 12px;
+    }
+
+    .completed-container {
+        display: flex;
+        width: 129px;
+        height: 32px;
+        background-color: rgba(45, 112, 253, 0.07);
+        border-radius: 4px;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        margin-left: 24px;
+
+        .completed-text {
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 16px;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            color: #2D70FD;
+
+        }
+    }
+
+    .divider {
+        height: 1px;
+        width: 100%;
+        background-color: rgba(0, 23, 71, 0.07);
+    }
+
+    .task-content {
+        padding-top: 24px;
+        padding-left: 24px;
+        padding-bottom: 24px;
+        padding-right: 24px;
+        display: flex;
+        flex: 1;
+    }
+}

@@ -1,0 +1,46 @@
+.scssClass {
+    background-color: #FFFFFF;
+    display: flex;
+    height: 56px;
+    align-items: center;
+
+    .logo {
+        height: 56px;
+        width: 185px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .logo-line {
+        position: absolute;
+        height: 32px;
+        width: 1px;
+        top: 40;
+        right: 0;
+        background-color: #F6F9FB;
+    }
+
+    .upbar-filter-buttons-search {
+        display: flex;
+        gap: 8px;
+    }
+
+    .upbar-plus-button-container {
+        display: flex;
+        flex: 1;
+        justify-content: end;
+        padding-right: 24px;
+    }
+
+    .upbar-plus-button {
+        width: 32px;
+        height: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #2D70FD;
+        border-radius: 4px;
+    }
+}

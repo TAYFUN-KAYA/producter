@@ -1,0 +1,41 @@
+.task-priority {
+    height: 16px;
+    width: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 2.67px;
+
+    .column-width {
+        width: 2.67px;
+    }
+
+    .column-one {
+        background-color: #FF6464;
+        height: 6px;
+    }
+
+    .defult-priority {
+        background-color: #DDDDDD;
+    }
+
+    .priority-low {
+        background-color: #00D8A7;
+    }
+
+    .priority-middle {
+        background-color: #FFD166;
+    }
+
+    .priority-high {
+        background-color: #FF6464;
+    }
+
+    .column-two {
+        height: 9px;
+    }
+
+    .column-three {
+        height: 12px;
+    }
+}
