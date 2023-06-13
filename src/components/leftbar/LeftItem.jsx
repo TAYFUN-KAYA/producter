@@ -1,8 +1,12 @@
 import React from "react";
 import "../../assets/styles/leftbar/leftitem/index.scss";
-const LeftItem = ({ active, Icon, title }) => {
+import { useNavigate } from "react-router-dom";
+
+const LeftItem = ({ active, Icon, title, navigate_route="" }) => {
+  const navigate = useNavigate();
+
   return (
-    <div className={active ? "item-active" : "item"}>
+    <div className={active ? "item-active" : "item"} onClick={()=>navigate(navigate_route)}>
       {Icon}
       <p className={active ? "item-text-active" : "item-text"}>{title}</p>
       {active && (

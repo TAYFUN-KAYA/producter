@@ -1,0 +1,96 @@
+.add-new-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+
+    background-color: #F5F5F5;
+
+    .add-new-task-sub-container {
+        margin-top: 85px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 16px;
+        align-items: center;
+        width: 400px;
+        height: 400px;
+        background-color: #FFFFFF;
+        border: 1px solid rgba(0, 23, 71, 0.05);
+        border-radius: 8px;
+    }
+
+    .title-input {
+        width: 300px;
+        height: 40px;
+        border-radius: 4px;
+        border: 1px solid rgba(0, 22, 71, 0.235);
+        padding: 10px;
+    }
+
+    .title {
+        margin-bottom: 5px;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 16px;
+        color: #405175;
+    }
+
+    .dropdown {
+        margin-top: 10px;
+        width: 300px;
+        height: 40px;
+        border-radius: 4px;
+        border: 1px solid rgba(0, 22, 71, 0.235);
+        margin-bottom: 5px;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 16px;
+        color: #405175;
+    }
+
+    .add-button {
+        display: flex;
+        width: 199px;
+        height: 42px;
+        background-color: rgba(45, 111, 253, 0.516);
+        border-radius: 4px;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        margin-left: 24px;
+        margin-top: 5px;
+
+        .add-button-text {
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 16px;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            color: #f4f4f4;
+
+        }
+    }
+
+    .add-button:hover {
+
+        background-color: #2D70FD;
+        transition: all .3s ease;
+    }
+
+    .notify {
+        margin-bottom: 5px;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 16px;
+    }
+
+    .notify-success {
+        color: green;
+    }
+
+    .notify-warnning {
+        color: orange;
+    }
+}

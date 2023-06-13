@@ -18,6 +18,7 @@ const TaskCard = ({
   dragCard,
   itemType,
   status,
+  user,
 }) => {
   return (
     <div
@@ -40,7 +41,7 @@ const TaskCard = ({
           <TaskPriority priority={priority} />
           <TaskCardSubTotal total={subtotal} />
           <img
-            src={require("../../../assets/images/Ellipse 1116.png")}
+            src={user.image}
             alt="Profile"
             className="profile-image"
           />

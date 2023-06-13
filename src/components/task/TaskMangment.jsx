@@ -103,6 +103,7 @@ const TaskMangment = ({ tasks }) => {
             itemType={"backlog"}
             onDragStart={onDragStart}
             onDragEnd={onDragEnd}
+            user={item.user}
           />
         ))}
       </TaskList>
@@ -131,6 +132,7 @@ const TaskMangment = ({ tasks }) => {
             subtotal={item.subtotal}
             onDragStart={onDragStart}
             onDragEnd={onDragEnd}
+            user={item.user}
           />
         ))}
       </TaskList>
@@ -159,6 +161,7 @@ const TaskMangment = ({ tasks }) => {
             subtotal={item.subtotal}
             onDragStart={onDragStart}
             onDragEnd={onDragEnd}
+            user={item.user}
           />
         ))}
       </TaskList>
@@ -187,6 +190,7 @@ const TaskMangment = ({ tasks }) => {
             subtotal={item.subtotal}
             onDragStart={onDragStart}
             onDragEnd={onDragEnd}
+            user={item.user}
           />
         ))}
       </TaskList>

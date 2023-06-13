@@ -31,6 +31,7 @@ const LeftBar = () => {
           active={true}
           Icon={<TaskIcon active={true} />}
           title={"Task"}
+          navigate_route="/"
         />
         <LeftItem
           active={false}
@@ -68,7 +69,7 @@ const LeftBar = () => {
         <LeftProfile
           Image={
             <img
-              src={require("../assets/images/Ellipse 1116.png")}
+              src={require("../assets/images/profile1.png")}
               alt="Profile"
               className="profile-image"
             />
