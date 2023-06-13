@@ -43,7 +43,7 @@ const AddNewTask = () => {
         user: {
           name: "Nguyen Van A",
           surname: "Nguyen Van A",
-          image: require("../assets/images/profile2.png"),
+          image: require("../../assets/images/profile2.png"),
         },
         subtotal: 13,
         desctext: "TASK-" + Math.floor(Math.random() * (999 - 100 + 1) + 100),
